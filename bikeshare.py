@@ -20,7 +20,7 @@ def get_filters():
     #Three while loops below to handle each of the inputs. They will 'break' the loop once the user entered prompt meets the condition
     #input() prompts user input
     #the user input is converted to suit the required formats in each list per the practice examples in the course -
-    #e.g. .lower coverts user input to lowercase and .title to Tile Case
+    #e.g. .lower coverts user input to lowercase and .title to Title Case
     while True:
         cities= ['chicago','new york city','washington']
         city= input('\n Please type the city would you like to analyse.\n Choose from Chicago, New York City, or Washington.\n').lower()
