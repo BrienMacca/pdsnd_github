@@ -1,1 +1,7 @@
 .github/**
+#the above was already in the repository
+#the below files are from the bikeshare project
+#section1 of the github project says to ignore them to avoid pushing the the remote repo
+chicago.csv
+new_york_city.csv
+washington.csv
