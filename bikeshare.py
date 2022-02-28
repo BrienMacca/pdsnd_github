@@ -20,7 +20,7 @@ def get_filters():
     #Three while loops below to handle each of the inputs. They will 'break' the loop once the user entered prompt meets the condition
     #input() prompts user input
     #the user input is converted to suit the required formats in each list per the practice examples in the course -
-    #e.g. .lower coverts user input to lowercase and .title to Tile Case
+    #e.g. .lower coverts user input to lowercase and .title to Title Case
     while True:
         cities= ['chicago','new york city','washington']
         city= input('\n Please type the city would you like to analyse.\n Choose from Chicago, New York City, or Washington.\n').lower()
@@ -89,7 +89,8 @@ def load_data(city, month, day):
 
 
 def time_stats(df):
-    """Displays statistics on the most frequent times of travel."""
+    """Displays statistics on the most frequent times of travel.
+    This provides the most common month, day or hour"""
 
     print('\nCalculating The Most Frequent Times of Travel...\n')
     start_time = time.time()
@@ -120,7 +121,7 @@ def station_stats(df):
     """Displays statistics on the most popular stations and trip."""
 
     print('\nCalculating The Most Popular Stations and Trip...\n')
-    start_time = time.time()
+
 
     # TO DO: display most commonly used start station
     mostused_start_stn= df['Start Station'].mode()[0]
@@ -134,7 +135,7 @@ def station_stats(df):
     mostused_combo_stns = (df['Start Station']+' to '+df['End Station']).mode()[0]
     print("The most frequent combination of start station and end station is {}".format(mostused_combo_stns).split("||"))
 
-    print("\nThis took %s seconds." % (time.time() - start_time))
+    
     print('-'*40)
 
 
