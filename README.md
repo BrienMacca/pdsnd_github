@@ -28,7 +28,21 @@ The code output(per requirements):
     Iterations of 5 rows of data beginning with the first 5 rows.
 
 ### Files used
-Include the files used
+Bikeshare.py
+Chicago.csv
+New_York_city.csv
+Washington.csv
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+https://stackoverflow.com/questions/3754620/what-does-while-true-mean-in-python
+https://www.freecodecamp.org/news/python-while-loop-tutorial/
+The freecodecamp tutorial also gives a detailed explanation of the user input() and while loop, with a syntax example, which I combined with the knowledge from lesson 6 Udacity course.
+
+I also used the pandas docs:
+https://pandas.pydata.org/pandas-docs/stable/user_guide/index.html#user-guide
+https://pandas.pydata.org/pandas-docs/stable/user_guide/10min.html
+
+NumPy Manual https://docs.scipy.org/doc/numpy-1.13.0/contents.html
+
+I also looked at the git documentation to help with any specs on this publication
+https://git-scm.com/docs
