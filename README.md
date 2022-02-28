@@ -7,7 +7,7 @@ I created this git repository for the bikeshare project on 22-FEB-2022
 The Bikeshare Project
 
 ### Description
-The Bikeshare project uses python code to take user input prompts to filter bikeshare data and provide several outputs. the code will output the following information for users:
+The Bikeshare project uses python code to take user input prompts to filter bikeshare data and provide several outputs. The code will output the following information for users:
 The code output(per requirements):
     #1 Popular times of travel (i.e., occurs most often in the start time)
     most common month
