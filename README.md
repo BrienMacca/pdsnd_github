@@ -46,3 +46,6 @@ NumPy Manual https://docs.scipy.org/doc/numpy-1.13.0/contents.html
 
 I also looked at the git documentation to help with any specs on this publication
 https://git-scm.com/docs
+
+Git type help:
+https://stackoverflow.com/questions/26944762/when-to-use-chore-as-type-of-commit-message
